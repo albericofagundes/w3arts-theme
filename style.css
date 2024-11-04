@@ -1,0 +1,152 @@
+/*
+Theme Name: W3Arts
+Theme URI: http://seudominio.com/meutema
+Author: Alberico Fagundes
+Author URI: alberico.fagundes.live
+Description: Um tema personalizado para WordPress com estilos configuráveis usando variáveis.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meutema
+Tags: layout-fluido, personalizável, responsivo, customizado
+*/
+
+/* Variáveis de Tema */
+:root {
+  /* Cores do Tema Claro */
+  --color-background-light: #f4f4f4;
+  --color-text-light: #333;
+  --color-primary-light: #333;
+  --color-secondary-light: #444;
+  --color-link-light: #0066cc;
+  --color-hover-light: #555;
+
+  /* Cores do Tema Escuro */
+  --color-background-dark: #121212;
+  --color-text-dark: #f0f0f0;
+  --color-primary-dark: #ffffff;
+  --color-secondary-dark: #444;
+  --color-link-dark: #1e90ff;
+  --color-hover-dark: #333;
+
+  /* Configurações de Tipografia */
+  --font-family: Arial, sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+
+  /* Cores Atuais (inicialmente no tema claro) */
+  --color-background: var(--color-background-light);
+  --color-text: var(--color-text-light);
+  --color-primary: var(--color-primary-light);
+  --color-secondary: var(--color-secondary-light);
+  --color-link: var(--color-link-light);
+  --color-hover: var(--color-hover-light);
+}
+
+/* Reset de estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+/* Cabeçalho */
+header {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* Navegação */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-secondary);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: var(--color-hover);
+}
+
+/* Conteúdo Principal */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: var(--color-primary);
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-hover);
+}
+
+/* Rodapé */
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Tema Escuro */
+body.dark-theme {
+  --color-background: var(--color-background-dark);
+  --color-text: var(--color-text-dark);
+  --color-primary: var(--color-primary-dark);
+  --color-secondary: var(--color-secondary-dark);
+  --color-link: var(--color-link-dark);
+  --color-hover: var(--color-hover-dark);
+}
