@@ -19,22 +19,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html">Serviços</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+                <a class="nav-link" href="services.html">Tecnologias</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="blog.html">Sobre Nós</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="client.html">Client</a>
+                <a class="nav-link" href="client.html">Clientes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contato</a>
             </li>
         </ul>
     </div>
@@ -85,11 +85,12 @@
                                  <h4 class="banner_taital">W3arts</h4>
                                  <!-- <h5>Elevamos Sua Presença Digital</h5> -->
                                  <p class="banner_text">Criação de landing pages, sites, identidades visuais e estratégias de marketing feitas sob medida para o sucesso da sua marca. Transformamos ideias em resultados com design estratégico e soluções digitais que encantam.</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
+                                 <div class="read_bt"><a href="#">Saiba Mais</a></div>
                               </div>
                            </div>
                            <div class="col-md-6">
-                              <div><img src="images/img-1.png" class="image_1"></div>
+                              <!-- <div><img src="images/img-1.png" class="image_1"></div> -->
+                              <div><img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/img-1.png'); ?>" class="image_1"></div>
                            </div>
                         </div>
                      </div>

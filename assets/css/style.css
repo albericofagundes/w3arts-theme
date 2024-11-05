@@ -42,9 +42,9 @@
 :root {
   /* Cores do Tema Claro */
   --color-background-light: #f4f4f4;
-  --color-text-light: #333;
-  --color-primary-light: #333;
-  --color-secondary-light: #444;
+  --color-text-light:  #f4f4f4;
+  --color-primary-light:  #f4f4f4;
+  --color-secondary-light: #f4f4f4;
   --color-link-light: #0066cc;
   --color-hover-light: #555;
 
@@ -104,6 +104,10 @@ header {
 header h1 {
   font-size: 2em;
   margin: 0;
+}
+
+a.navbar-brand img {
+  max-width: 132px;
 }
 
 /* Navegação */
