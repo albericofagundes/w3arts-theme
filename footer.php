@@ -27,7 +27,7 @@
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h4 class="link_text">web design</h4>
-                     <p class="footer_text">Lorem ipsum dolor sit amet, consectetur adipiscinaliquaL oreadipiscing </p>
+                     <p class="footer_text">Transformando ideias em interfaces visualmente atrativas e eficientes, nosso design web conecta marcas ao público com uma experiência que valoriza tanto a estética quanto a usabilidade. </p>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h4 class="link_text">social media</h4>
@@ -41,8 +41,8 @@
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">Our Branchs</h4>
-                     <p class="footer_text_1">Lorem ipsum dolor sit amet, consectetur adipiscinaliquaLoreadipiscing </p>
+                     <h4 class="link_text">Sobre nós</h4>
+                     <p class="footer_text_1">Especializados em soluções digitais, transformamos ideias em experiências online únicas. Unindo tecnologia e design, destacamos sua marca e ampliamos sua presença digital. </p>
                   </div>
                </div>
             </div>
